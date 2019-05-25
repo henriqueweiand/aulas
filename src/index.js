@@ -4,6 +4,7 @@ import { render } from 'react-dom';
 import Button from './components/Button'
 
 class App extends Component {
+  
   handleSalvar() {
     alert('Atualizamos!')
   }
@@ -15,7 +16,7 @@ class App extends Component {
           Hello React!!
         </h1>
         <Button onClick={this.handleSalvar}>
-          <h4>Apagar</h4>
+          <h4>Salvar</h4>
         </Button>
       </Fragment>
     );
